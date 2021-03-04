@@ -7,7 +7,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
-file(GLOB_RECURSE LOX_SOURCES "src/*.cpp")
-file(GLOB_RECURSE LOX_HEADERS "include/*.h")
+file(GLOB_RECURSE PROJ_SOURCES "src/*.cpp")
+file(GLOB_RECURSE PROJ_HEADERS "include/*.h")
 
 add_executable(proj src/main.cpp)
